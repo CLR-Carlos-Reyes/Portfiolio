@@ -2,9 +2,208 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=1200">
+    <title>Carlos Reyes | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<!-- ===== Header & Navigation ===== -->
+<header class="site-header">
+    <div class="container clearfix">
+        <a href="#home" class="logo">Carlos Reyes</a>
+        <nav class="main-nav" aria-label="Main navigation">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+
+    <!-- ===== Home  ===== -->
+    <section id="home" class="home">
+        <div class="container clearfix">
+            <div class="home-text">
+                <p class="home-greeting">Hello, I'm </p>
+                <h1>Carlos Reyes</h1>
+                <p class="home-intro">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+                    facilisis, justo non tincidunt pretium, arcu nibh luctus magna,
+                    a porta velit lorem at ipsum.
+                </p>
+                <a href="#projects" class="btn btn-primary">View my work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me!</a>
+            </div>
+            <figure class="home-portrait">
+                <div class="portrait-frame">
+                    <span class="portrait-initials">CR</span>
+                </div>
+                <figcaption>Web developer &amp; student, based in Lorem City</figcaption>
+            </figure>
+        </div>
+    </section>
+
+    <!-- ===== About Me ===== -->
+    <section id="about" class="about">
+        <div class="container clearfix">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-text">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+                <p>
+                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                    Curabitur pretium tincidunt lacus. Nulla gravida orci a odio. Nullam
+                    varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus
+                    magna felis sollicitudin mauris.
+                </p>
+            </div>
+            <aside class="about-facts">
+                <h3>Quick facts</h3>
+                <dl>
+                    <dt>Location</dt>
+                    <dd>Lorem City, Ipsum State</dd>
+                    <dt>Education</dt>
+                    <dd>B.S. Computer Science (in progress)</dd>
+                    <dt>Interests</dt>
+                    <dd>Web design, Video Editing, Games</dd>
+                    <dt>Languages</dt>
+                    <dd>English, Spanish</dd>
+                </dl>
+            </aside>
+        </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <p class="section-intro">
+                Tools and languages I use in my day-to-day work.
+            </p>
+            <ul class="skill-list">
+                <li class="skill">
+                    <h3>HTML</h3>
+                    <p>Semantic markup, accessibility, forms.</p>
+                    <span class="level-tag expert">Expert</span>
+                </li>
+                <li class="skill">
+                    <h3>CSS</h3>
+                    <p>Layout, typography, color systems.</p>
+                    <span class="level-tag intermediate">Intermediate</span>
+                </li>
+                <li class="skill">
+                    <h3>JavaScript</h3>
+                    <p>DOM scripting, events, basic APIs.</p>
+                    <span class="level-tag novice">Novice</span>
+                </li>
+                <li class="skill">
+                    <h3>Design</h3>
+                    <p>Wireframes, prototypes, UI sketches.</p>
+                    <span class="level-tag intermediate">Intermediate</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-intro">
+                A few things I have built recently.
+            </p>
+            <div class="project-list">
+                <div class="project">
+                    <div class="project-thumb thumb-one"></div>
+                    <div class="project-body">
+                        <h3>Battle Nations Wiki API</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Vivamus lacinia odio vitae vestibulum.
+                        </p>
+                        <a href="#projects" class="project-link">View project</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-thumb thumb-two"></div>
+                    <div class="project-body">
+                        <h3>Web Development Project</h3>
+                        <p>
+                            Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer
+                            adipiscing elit mauris fermentum.
+                        </p>
+                        <a href="#projects" class="project-link">View project</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-thumb thumb-three"></div>
+                    <div class="project-body">
+                        <h3>Board Game Project</h3>
+                        <p>
+                            Praesent dapibus, neque id cursus faucibus, tortor neque
+                            egestas augue, eu vulputate magna.
+                        </p>
+                        <a href="#projects" class="project-link">View project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="contact">
+        <div class="container clearfix">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-info">
+                <p>
+                    Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer
+                    adipiscing elit mauris fermentum.
+                </p>
+                <address>
+                    <strong>Email</strong><br>
+                    <a href="mailto:hello@example.com">email@example.com</a><br><br>
+                    <strong>Phone</strong><br>
+                    (000) 123-4567<br><br>
+                    <strong>Address</strong><br>
+                    123 Lorem Street<br>
+                    Ipsum City, ST 00000
+                </address>
+            </div>
+            <div class="contact-email">
+                <h3>Send me an email</h3>
+                <p>Click the button below to open your email app with my address filled in.</p>
+                <a href="mailto:hello@example.com?subject=Hello%20from%20your%20website" class="btn btn-primary">Email me</a>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- ===== Footer ===== -->
+<footer class="site-footer">
+    <div class="container clearfix">
+        <p class="copyright">&copy; 2026 Carlos Reyes. All rights reserved.</p>
+        <ul class="footer-links">
+            <li><a href="#home">Back to top</a></li>
+            <li><a href="#">GitHub</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+    </div>
+</footer>
 
 </body>
 </html>

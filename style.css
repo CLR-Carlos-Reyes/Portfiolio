@@ -1,0 +1,365 @@
+/* style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #171717;
+    background-color: #ffffff;
+}
+
+h1, h2, h3 {
+    font-family: Georgia, "Times New Roman", serif;
+    color: #003366 ;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #090fc3;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 1200px;
+    padding: 0 50px;
+}
+
+/* stops the sticky nav bar from covering section titles */
+section {
+    scroll-margin-top: 70px;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.section-intro {
+    margin-bottom: 25px;
+}
+
+/* buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    border: 2px solid #003366 ;
+}
+
+.btn-primary {
+    background-color: #FFCC33 ;
+    border-color: #FFCC33 ;
+    color: #171717FF;
+}
+
+.btn-outline {
+    background-color: #ffffff;
+    color: #003366 ;
+}
+
+/* header */
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    height: 70px;
+    background-color: #003366 ;
+}
+
+.logo {
+    float: left;
+    line-height: 70px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-nav {
+    float: right;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.main-nav a {
+    line-height: 70px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-nav a:hover {
+    text-decoration: underline;
+}
+
+/* home */
+.home  {
+    height: 520px;
+    padding-top: 60px;
+    background-color: #E9EAFB;
+}
+
+.home-text {
+    float: left;
+    width: 600px;
+}
+
+.home-greeting {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.home h1 {
+    font-size: 46px;
+    margin-bottom: 20px;
+}
+
+.home-intro {
+    margin-bottom: 30px;
+}
+/* potratit CS */
+.home-portrait {
+    float: right;
+    width: 350px;
+    text-align: center;
+}
+
+.portrait-frame {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto 10px;
+    background-color: #003366 ;
+    border: 5px solid #FFCC33 ;
+}
+
+.portrait-initials {
+    display: inline-block;
+    line-height: 290px;
+    font-size: 90px;
+    color: #ffffff;
+}
+
+.home-portrait figcaption {
+    font-size: 14px;
+}
+
+/* about */
+.about {
+    padding: 60px 0;
+}
+
+.about-text {
+    float: left;
+    width: 650px;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+.about-facts {
+    float: right;
+    width: 350px;
+    padding: 20px;
+    background-color: #E9EAFB;
+}
+
+.about-facts h3 {
+    margin-bottom: 10px;
+}
+
+.about-facts dt {
+    font-weight: bold;
+}
+
+.about-facts dd {
+    margin-bottom: 10px;
+}
+
+/* skills */
+.skills {
+    padding: 60px 0;
+    background-color: #E9EAFB;
+}
+
+.skill {
+    display: inline-block;
+    vertical-align: top;
+    width: 240px;
+    margin-right: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.skill h3 {
+    margin-bottom: 5px;
+}
+
+.skill p {
+    margin-bottom: 15px;
+}
+
+.level-tag {
+    display: inline-block;
+    padding: 3px 10px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.expert {
+    background-color: #003366 ;
+    color: #ffffff;
+}
+
+.intermediate {
+    background-color: #FFCC33 ;
+    color: #171717FF;
+}
+
+.novice {
+    background-color: #dddddd;
+    color: #171717FF;
+}
+
+/* projects */
+.projects {
+    padding: 60px 0;
+}
+
+.project {
+    display: inline-block;
+    vertical-align: top;
+    width: 330px;
+    margin-right: 30px;
+    border: 1px solid #cccccc;
+}
+
+.project-thumb {
+    height: 180px;
+    background-color: #cccccc;
+}
+
+.thumb-one {
+    background-color: #003366 ;
+}
+
+.thumb-two {
+    background-color: #FFCC33 ;
+}
+
+.thumb-three {
+    background-color: #9fa2d6;
+}
+
+.project-body {
+    padding: 15px;
+}
+
+.project h3 {
+    margin-bottom: 8px;
+}
+
+.project p {
+    margin-bottom: 10px;
+}
+
+/* contact */
+.contact {
+    padding: 60px 0;
+    background-color: #003366 ;
+    color: #ffffff;
+}
+
+.contact .section-title {
+    color: #ffffff;
+}
+
+.contact-info {
+    float: left;
+    width: 380px;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+}
+
+.contact-info address {
+    font-style: normal;
+}
+
+.contact-info a {
+    color: #FFCC33 ;
+}
+
+.contact-email {
+    float: right;
+    width: 600px;
+    padding: 25px;
+    background-color: #ffffff;
+    color: #171717FF;
+}
+
+.contact-email h3 {
+    margin-bottom: 10px;
+}
+
+.contact-email p {
+    margin-bottom: 20px;
+}
+
+/* footer */
+.site-footer {
+    height: 60px;
+    background-color: #1E1F52;
+    color: #ffffff;
+}
+
+.copyright {
+    float: left;
+    line-height: 60px;
+    font-size: 14px;
+}
+
+.footer-links {
+    float: right;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.footer-links a {
+    line-height: 60px;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* print the nav bar once at the top, not on every page */
+@media print {
+    .site-header {
+        position: static;
+    }
+}
